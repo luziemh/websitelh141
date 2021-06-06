@@ -1,0 +1,144 @@
+body {
+  text-align:center;
+  color: white;
+  background-color: #c3eb78;
+  font-family: 'Source Sans Pro', Sans-Serif;
+  margin: 0;
+}
+
+h1 {
+font-family: 'Playfair Display', Serif;
+font-size: 130px;
+text-align: center;
+letter-spacing: 5px;
+text-shadow: 4px 2px 0px #ff299c;
+}
+
+h2 {
+  text-align:center;
+  color: #ff299c;
+}
+
+.nav-bar {
+  font-family: monospace;
+  text-align: right;
+}
+
+.gtkm {
+  background-color: white;
+  color: #ff299c;
+  margin: 0px;
+  border: 0px;
+  padding: 20px;
+  list-style: inside;
+}
+
+.daten {
+  font-family: monospace;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center space-between;
+  background-color: #ff299c;
+}
+
+@media (min-width: 768px) {
+  .flex-container {
+    flex-direction: row;
+  }
+}
+
+
+.stadtname {
+  font-family:'Playfair Display', Serif;
+  font-size: 60px;
+  text-align: center
+  color:#ff299c;
+  letter-spacing: 5px;
+}
+
+.stadt1 {
+  height: 400px;
+  background-image: url("Marburg00160.jpg");
+  background-size: 100%;
+  object-fit: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 80px 60px 0px;
+}
+
+.stadt2 {
+  height: 400px;
+  background-image: url("schlossplatz-stuttgart-germany.jpg");
+  background-size: 100%;
+  background-position: center;
+  object-fit: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 80px 60px 0px;
+}
+
+.stadt-description {
+  height: 200px;
+  margin: 0px 60px 80px;
+  background-color: white;
+  color: #ff299c;
+  padding: 40px;
+  position: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: space-around;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  margin: 10px 60px 30px;
+}
+
+.grid-item {
+  color:#ff299c;
+  background-color: white;
+  padding: 20px 20px 60px;
+  margin: 50px 0px;
+}
+
+.share a {
+  color: white;
+}
+
+.grid-item:hover {
+  background-color: #ff299c;
+  color:white
+
+}
+
+.share a:hover {
+  color: #ff299c;
+}
+
+footer {
+  font-family: monospace;
+  padding: 30px;
+  margin: 30px;
+}
+
+img {
+  width: 50%,;
+}
+
+a {
+  color: #ff299c;
+}
+
+a:hover {
+  color: white;
+}
+
+h1:hover {
+  color:#ff299c;
+  text-shadow: 4px 2px 0px white;
+}
