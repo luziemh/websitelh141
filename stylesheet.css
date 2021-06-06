@@ -48,6 +48,9 @@ h2 {
   .flex-container {
     flex-direction: row;
   }
+  .grid-container {
+    flex-direction: row;
+  }
 }
 
 
